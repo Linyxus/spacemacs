@@ -438,18 +438,19 @@ Will work on both org-mode and any mode that accepts plain html."
 
         ;; Clock
         ;; These keybindings should match those under the "mC" prefix (above)
-        "aoCc" 'org-clock-cancel
-        "aoCg" 'org-clock-goto
-        "aoCi" 'org-clock-in
-        "aoCI" 'org-clock-in-last
-        "aoCj" 'spacemacs/org-clock-jump-to-current-clock
-        "aoCo" 'org-clock-out
-        "aoCr" 'org-resolve-clocks
+        "oCc" 'org-clock-cancel
+        "oCg" 'org-clock-goto
+        "oCi" 'org-clock-in
+        "oCI" 'org-clock-in-last
+        "oCj" 'spacemacs/org-clock-jump-to-current-clock
+        "oCo" 'org-clock-out
+        "oCr" 'org-resolve-clocks
 
-        "aol" 'org-store-link
-        "aom" 'org-tags-view
-        "aos" 'org-search-view
-        "aot" 'org-todo-list
+        "ol" 'org-store-link
+        "om" 'org-tags-view
+        "oo" 'org-agenda
+        "os" 'org-search-view
+        "ot" 'org-todo-list
         ;; SPC C- capture/colors
         "Cc" 'org-capture)
 
